@@ -13,7 +13,7 @@ import java.lang.annotation.Documented;
 @NoArgsConstructor
 @Document(collection = "students")
 public class StudentModel {
-    @Id
+    @Id  //means primary key
     private String id;
     private String name;
     private int age;

@@ -2,9 +2,10 @@ package com.example.day3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-//controller-
-//service-
-//model-
+//controller- request
+//service- logic
+//repository- database
+//model- data schema
 
 @SpringBootApplication
 public class Day3Application {
