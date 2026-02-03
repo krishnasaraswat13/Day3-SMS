@@ -18,7 +18,7 @@ import java.lang.annotation.Documented;
 @Document(collection = "students")
 public class StudentModel {
    // @Id  //means primary key //we are not requiresd to make id bcz it is auto generated in mongodb
-    //private String id;
+    private String id;
 
     @NotBlank(message="Name cannot be blank")
     private String name;
